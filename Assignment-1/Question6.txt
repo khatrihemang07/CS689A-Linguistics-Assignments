@@ -1,0 +1,7 @@
+I observed that Unigram and BPE with Vocab = 1K, worked almost similar. Instead it seems as if Unigram worked better than BPE
+
+But when Compared to BPE with Vocab=2K v/s Unigram. They are quite comparable.
+
+mBERT and IndicBERT are almost simlar in performance. But IndicBERT performed relatively bad. 
+
+One of the best worked tokenizer was White Space Tokenizer on the basis of performance. So we can infer that normally in hindi we don't break word into smaller word while tokenizing. Thus white space tokenizer worked the best among all the tokenizers.
